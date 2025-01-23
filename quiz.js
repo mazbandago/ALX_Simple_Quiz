@@ -5,7 +5,7 @@ return correctAnswer
 
 let results = checkAnswer()
 
-const pick = document.querySelector('input');
+const pick = document.querySelector('input[name="quiz"]:checked');
 
 pick.getAttribute('value');
 
