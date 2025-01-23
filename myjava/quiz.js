@@ -1,5 +1,5 @@
 function checkAnswer() {
-let correctAnswer = "4";
+const correctAnswer = "4";
 return correctAnswer
 }
 
@@ -18,7 +18,7 @@ if(userAnswer===results){
     feedBack.textContent = "That's incorrect. Try again!";
 };
 
-// const submitAnswer = document.getElementById('#submit-answer');
-// submitAnswer.addEventListener('click', function checkAnswer{  
-//     alert('This is the right answer');
-// });
+const submitAnswer = document.getElementById('submit-answer');
+submitAnswer.addEventListener('click', function (checkAnswer){  
+    checkAnswer.target;
+});
