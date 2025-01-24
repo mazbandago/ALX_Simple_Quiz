@@ -5,10 +5,10 @@ return correctAnswer
 
 let results = checkAnswer()
 
-const pick = document.querySelector("input[name='quiz']");
-pick.getAttribute('value');
+const pick = document.querySelector('input[name="quiz"]:checked');
+pick.querySelector('input[name="quiz"].value');
 
-const userAnswer = pick.getAttribute('value');
+const userAnswer = pick.querySelector('input[name="quiz"].value');
 
 if(userAnswer===results){
     const feedBack = document.querySelector('#feedback');
@@ -18,6 +18,6 @@ if(userAnswer===results){
 };
 
 const submitAnswer = document.getElementById('submit-answer');
-submitAnswer.addEventListener('click', function(chee){  
-    chee.target;
+submitAnswer.addEventListener('click', function(checkAnswer){  
+    checkAnswer.target;
 });
