@@ -10,7 +10,7 @@ const pickValue = document.querySelector('input[name="quiz"].value');
 
 const userAnswer = pickValue;
 
-if(userAnswer===correctAnswer){
+if (userAnswer===correctAnswer){
     const feedBack = document.querySelector('#feedback');
     feedBack.textContent = "Correct! Well done.";
 } else {
