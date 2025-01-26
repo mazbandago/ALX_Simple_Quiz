@@ -6,9 +6,9 @@ return correctAnswer
 let results = checkAnswer()
 
 const pick = document.querySelector('input[name="quiz"]:checked');
-pick.querySelector('input[name="quiz"].value');
+const pickValue = document.querySelector('input[name="quiz"].value');
 
-const userAnswer = pick.querySelector('input[name="quiz"].value');
+const userAnswer = pickValue;
 
 if(userAnswer===correctAnswer){
     const feedBack = document.querySelector('#feedback');
