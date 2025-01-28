@@ -18,6 +18,7 @@ if (userAnswer===correctAnswer){
 };
 
 const submitAnswer = document.getElementById('submit-answer');
-submitAnswer.addEventListener('click', function(checkAnswer){  
-    checkAnswer.target;
-});
+submitAnswer.addEventListener('click', checkAnswer);
+function checkAnswer(){
+    const correctAnswer = "4";
+};
