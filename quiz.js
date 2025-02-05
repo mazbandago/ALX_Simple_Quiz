@@ -1,13 +1,12 @@
 function checkAnswer() {
 const correctAnswer = "4";
 }
-
-const pick = document.querySelector('input[name="quiz"]:checked');
+document.querySelector('input[name="quiz"]:checked');
 // const pickValue = document.querySelector('input[name="quiz"].value');
 
-const userAnswer = pick.Value;
+const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 
-"if (userAnswer===correctAnswer)"{
+if (userAnswer===correctAnswer){
     const feedBack = document.querySelector('#feedback');
     feedBack.textContent = "Correct! Well done.";
 } else {
@@ -17,5 +16,5 @@ const userAnswer = pick.Value;
 const submitAnswer = document.getElementById('submit-answer');
 submitAnswer.addEventListener('click', checkAnswer);
 function checkAnswer(e){
-    e.target;
+    e.target;git
 };
