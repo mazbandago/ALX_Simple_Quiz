@@ -7,7 +7,7 @@ const pick = document.querySelector('input[name="quiz"]:checked');
 
 const userAnswer = pick.Value;
 
-if (userAnswer==correctAnswer){
+"if (userAnswer===correctAnswer)"{
     const feedBack = document.querySelector('#feedback');
     feedBack.textContent = "Correct! Well done.";
 } else {
