@@ -1,6 +1,6 @@
 function checkAnswer() {
-const correctAnswer = "4";
-}
+const correctAnswer = '4';
+
 document.querySelector('input[name="quiz"]:checked');
 // const pickValue = document.querySelector('input[name="quiz"].value');
 
@@ -15,6 +15,4 @@ if (userAnswer===correctAnswer){
 
 const submitAnswer = document.getElementById('submit-answer');
 submitAnswer.addEventListener('click', checkAnswer);
-function checkAnswer(e){
-    e.target;git
-};
+}
